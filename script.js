@@ -65,3 +65,9 @@ for (let i = 0; i < exp_item.length; i++) {
 
     });
 }
+
+const checkbox = document.getElementById('checkbox');
+checkbox.addEventListener("change", () =>
+{
+    document.body.classList.toggle("black");
+});
